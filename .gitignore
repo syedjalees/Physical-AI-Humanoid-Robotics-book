@@ -1,0 +1,20 @@
+# Node.js/TypeScript
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Universal
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/

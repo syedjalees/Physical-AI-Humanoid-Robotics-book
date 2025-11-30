@@ -1,0 +1,39 @@
+ai-native:
+  label: AI Native
+  permalink: /ai-native
+  description: AI-Native textbook and agent-powered learning content.
+
+hackathon:
+  label: Hackathon
+  permalink: /hackathon
+  description: Posts related to the Panaversity Physical AI & Humanoid Robotics Hackathon.
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Tutorials and content about building sites with Docusaurus.
+
+mdx:
+  label: MDX
+  permalink: /mdx
+  description: Posts showcasing MDX + React interactivity.
+
+robotics:
+  label: Robotics
+  permalink: /robotics
+  description: Posts related to humanoid robotics and physical AI.
+
+project:
+  label: Project
+  permalink: /project
+  description: Progress updates and technical logs for my AI-native textbook.
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Simple example tag (Docusaurus starter).
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Sample tag from Docusaurus starter project.

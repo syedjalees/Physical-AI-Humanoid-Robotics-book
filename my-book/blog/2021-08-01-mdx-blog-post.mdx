@@ -1,0 +1,41 @@
+---
+slug: mdx-blog-post
+title: Exploring MDX + React in My AI-Native Textbook Project
+authors: [SAYYED JALEES]
+tags: [docusaurus, mdx, react, hackathon]
+---
+
+Blog posts in Docusaurus are extremely powerful — especially because they support full **MDX**, letting you mix Markdown and React components inside a single article.
+
+This post demonstrates how I’m using **MDX**, **interactive elements**, and **custom components** in my AI-Native textbook for the Panaversity Hackathon.
+
+:::tip ✨ MDX Superpower
+MDX lets you write content like normal Markdown **while embedding live React components** inside your post.
+
+This makes your blog interactive, dynamic, and perfect for technical demos.
+:::
+
+{/* truncate */}
+
+## 🚀 Why MDX Matters in the Hackathon
+
+Since the final deliverable is an AI-native technical textbook, having MDX support allows:
+
+- Interactive examples inside chapters  
+- Live UI elements for AI features  
+- Buttons for personalization + Urdu translation  
+- Custom JSX blocks for explanations  
+- React-based visualizations  
+
+MDX turns your textbook into an **interactive learning platform**, not just a static document.
+
+---
+
+## 🎮 Interactive Example: React Button
+
+Below is a simple demo showing how React components work directly inside a blog post.
+
+```jsx
+<button onClick={() => alert('You clicked a React-powered MDX button!')}>
+  Click me!
+</button>

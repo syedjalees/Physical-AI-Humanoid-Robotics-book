@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "SlashCommand(/sp.constitution)",
+      "Bash(npx speckit:*)",
+      "Bash(speckit build)",
+      "Bash(/Hackathon/.claude/tools/spec-kit-plus/bin/speckit build:*)",
+      "Bash(npm start)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

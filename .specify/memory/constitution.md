@@ -1,55 +1,68 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: 1.1 -> 1.0 (major version downgrade/reset for new project specification)
+Modified principles:
+  - AI-first, agent-native learning architecture
+  - Modular, reusable, scalable content design
+  - All chapters must end with quizzes, exercises, diagrams
+  - All content must be robotics-focused, real-world, and practical
+  - Book must be easy to navigate and AI-interactable
+Added sections: None (existing sections updated)
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ⚠ pending
+  - .specify/templates/spec-template.md: ⚠ pending
+  - .specify/templates/tasks-template.md: ⚠ pending
+  - .specify/templates/commands/*.md: ⚠ pending
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics — Complete AI-Native Textbook Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. AI-first, agent-native learning architecture
+The textbook's content and interactive elements MUST be designed with an AI-first, agent-native learning architecture, leveraging AI to enhance educational outcomes and interactivity.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Modular, reusable, scalable content design
+Content MUST be modular, reusable across different sections and formats, and designed to scale for future expansions and updates.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. All chapters must end with quizzes, exercises, diagrams
+Every chapter MUST conclude with comprehensive quizzes, practical exercises, and illustrative diagrams to reinforce learning and engagement.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. All content must be robotics-focused, real-world, and practical
+The content MUST prioritize robotics-focused, real-world applications and practical implementations to provide tangible skills and understanding.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Book must be easy to navigate and AI-interactable
+The book's structure and interface MUST facilitate easy navigation and provide seamless AI-driven interaction capabilities.
 
-### [PRINCIPLE_6_NAME]
+## Description
+This project will produce a complete AI-native technical textbook for the Physical AI & Humanoid Robotics course.
+The book will be written using Docusaurus, Spec-Kit Plus, and Claude Code. It will include complete chapters,
+diagrams, exercises, quizzes, labs, and hands-on robotics tasks aligned with modern AI-native learning.
 
+The book must integrate:
+- A Retrieval-Augmented Generation (RAG) chatbot
+- OpenAI Agents or ChatKit SDK
+- FastAPI backend
+- Neon Serverless Postgres
+- Qdrant Cloud vector search
+- Personalized content buttons
+- Urdu translation button
+- Signup/Signin using Better-Auth
+- Optional Claude Subagents for bonus 50 points
 
-[PRINCIPLE__DESCRIPTION]
+## Content Structure
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+Defines the organization of chapters, sections, and sub-sections within the Docusaurus framework. This includes guidelines for markdown files, asset placement, and navigation.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Generation Workflow
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Outlines the process for content creation, review, build, and deployment using Docusaurus. Includes steps for local development, staging, and production publishing.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other content development practices.
+Amendments require team consensus, documentation, and a clear migration plan for affected content.
+All content submissions and reviews MUST verify compliance with these principles.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0 | **Ratified**: 2025-11-30 | **Last Amended**: 2025-11-30

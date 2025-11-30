@@ -1,0 +1,35 @@
+yangshun:
+  name: Yangshun Tay
+  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
+  url: https://linkedin.com/in/yangshun
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    x: yangshunz
+    linkedin: yangshun
+    github: yangshun
+    newsletter: https://www.greatfrontend.com
+
+slorber:
+  name: Sébastien Lorber
+  title: Docusaurus Maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+  page:
+    permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: sebastienlorber
+    linkedin: sebastienlorber
+    github: slorber
+    newsletter: https://thisweekinreact.com
+
+SAYYED JALEES:
+  name: SAYYED JALEES
+  title: AI-Native Textbook Developer | Panaversity Hackathon Participant
+  url: https://porfolio-jalees.vercel.app/
+  image_url: https://media.licdn.com/dms/image/v2/D5603AQG85diWaXwiqg/profile-displayphoto-shrink_400_400/B56ZcHv3LbHwAg-/0/1748181677438?e=2147483647&v=beta&t=i3X96lrte4tMhMbO7f71b03UmYdTJaOm4dykQvavpU0
+  page: true
+  socials:
+    x: your-twitter
+    linkedin: https://www.linkedin.com/in/sayyed-jalees/
+    github: https://github.com/syedjalees
