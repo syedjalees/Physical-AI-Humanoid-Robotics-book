@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Physical AI &amp; Humanoid Robotics Blog</title>
+        <link>https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog</link>
+        <description>Physical AI &amp; Humanoid Robotics Blog</description>
+        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome to My AI-Native Hackathon Blog]]></title>
+            <link>https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/welcome</link>
+            <guid>https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/welcome</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the blog documenting my journey in the Panaversity Physical AI & Humanoid Robotics Hackathon!]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the blog documenting my journey in the <strong>Panaversity Physical AI &amp; Humanoid Robotics Hackathon</strong>!<br>
+<!-- -->This blog is powered by the Docusaurus <strong>Blog Plugin</strong>, which makes it incredibly simple to publish posts, showcase progress, share updates, and integrate interactive MDX-powered content.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-getting-started-with-the-blog">🚀 Getting Started with the Blog<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/welcome#-getting-started-with-the-blog" class="hash-link" aria-label="Direct link to 🚀 Getting Started with the Blog" title="Direct link to 🚀 Getting Started with the Blog" translate="no">​</a></h2>
+<p>Setting up a blog in Docusaurus is easy — you just add Markdown or MDX files inside the <code>blog</code> directory.</p>
+<p>Each post can include:</p>
+<ul>
+<li class="">A <code>slug</code> for clean URLs</li>
+<li class="">Authors from <code>authors.yaml</code></li>
+<li class="">Tags for categorization and filtering</li>
+<li class="">MDX components for interactivity</li>
+<li class="">Images stored next to the post folder</li>
+</ul>
+<p>For example, your blog post structure can look like:</p>
+<ul>
+<li class=""><code>2021-08-26-welcome.md</code></li>
+<li class=""><code>2021-08-26-welcome/index.md</code></li>
+<li class="">With images stored in the same folder (like the one below)</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-why-this-blog-exists">🧠 Why This Blog Exists<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/welcome#-why-this-blog-exists" class="hash-link" aria-label="Direct link to 🧠 Why This Blog Exists" title="Direct link to 🧠 Why This Blog Exists" translate="no">​</a></h2>
+<p>Throughout the hackathon, I’m using this space to document:</p>
+<ul>
+<li class="">My progress building an <strong>AI-native textbook</strong></li>
+<li class="">Integrating a <strong>RAG-based AI chatbot</strong></li>
+<li class="">Experiments with <strong>Claude Code</strong> &amp; <strong>Spec-Kit Plus</strong></li>
+<li class="">Personalization features &amp; Urdu translation buttons</li>
+<li class="">Docusaurus tips, MDX tricks, and integrations</li>
+</ul>
+<p>This will help me track my development journey and share insights with others following along.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-tags--metadata">🏷️ Tags &amp; Metadata<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/welcome#%EF%B8%8F-tags--metadata" class="hash-link" aria-label="Direct link to 🏷️ Tags &amp; Metadata" title="Direct link to 🏷️ Tags &amp; Metadata" translate="no">​</a></h2>
+<p>Docusaurus supports tags for smart filtering and organization.<br>
+<!-- -->You can define your tags in the <code>tags.yml</code> file, and assign them to posts like this one.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-dont-want-a-blog">❌ Don’t Want a Blog?<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/welcome#-dont-want-a-blog" class="hash-link" aria-label="Direct link to ❌ Don’t Want a Blog?" title="Direct link to ❌ Don’t Want a Blog?" translate="no">​</a></h2>
+<p>If you prefer a docs-only textbook:<br>
+<!-- -->Just delete the entire <code>/blog</code> directory and set <code>blog: false</code> inside your Docusaurus config.</p>
+<hr>
+<p>Thanks for stopping by!<br>
+<!-- -->More updates, demos, and AI-powered experiments coming soon. 🚀</p>]]></content:encoded>
+            <category>AI Native</category>
+            <category>Hackathon</category>
+            <category>Docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[Exploring MDX + React in My AI-Native Textbook Project]]></title>
+            <link>https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/mdx-blog-post</link>
+            <guid>https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/mdx-blog-post</guid>
+            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Blog posts in Docusaurus are extremely powerful — especially because they support full MDX, letting you mix Markdown and React components inside a single article.]]></description>
+            <content:encoded><![CDATA[<p>Blog posts in Docusaurus are extremely powerful — especially because they support full <strong>MDX</strong>, letting you mix Markdown and React components inside a single article.</p>
+<p>This post demonstrates how I’m using <strong>MDX</strong>, <strong>interactive elements</strong>, and <strong>custom components</strong> in my AI-Native textbook for the Panaversity Hackathon.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>✨ MDX Superpower</div><div class="admonitionContent_BuS1"><p>MDX lets you write content like normal Markdown <strong>while embedding live React components</strong> inside your post.</p><p>This makes your blog interactive, dynamic, and perfect for technical demos.</p></div></div>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-why-mdx-matters-in-the-hackathon">🚀 Why MDX Matters in the Hackathon<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/mdx-blog-post#-why-mdx-matters-in-the-hackathon" class="hash-link" aria-label="Direct link to 🚀 Why MDX Matters in the Hackathon" title="Direct link to 🚀 Why MDX Matters in the Hackathon" translate="no">​</a></h2>
+<p>Since the final deliverable is an AI-native technical textbook, having MDX support allows:</p>
+<ul>
+<li class="">Interactive examples inside chapters</li>
+<li class="">Live UI elements for AI features</li>
+<li class="">Buttons for personalization + Urdu translation</li>
+<li class="">Custom JSX blocks for explanations</li>
+<li class="">React-based visualizations</li>
+</ul>
+<p>MDX turns your textbook into an <strong>interactive learning platform</strong>, not just a static document.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-interactive-example-react-button">🎮 Interactive Example: React Button<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/mdx-blog-post#-interactive-example-react-button" class="hash-link" aria-label="Direct link to 🎮 Interactive Example: React Button" title="Direct link to 🎮 Interactive Example: React Button" translate="no">​</a></h2>
+<p>Below is a simple demo showing how React components work directly inside a blog post.</p>
+<div class="language-jsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-jsx codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token tag punctuation" style="color:#393A34">&lt;</span><span class="token tag" style="color:#00009f">button</span><span class="token tag" style="color:#00009f"> </span><span class="token tag attr-name" style="color:#00a4db">onClick</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:#393A34">=</span><span class="token tag script language-javascript punctuation" style="color:#393A34">{</span><span class="token tag script language-javascript punctuation" style="color:#393A34">(</span><span class="token tag script language-javascript punctuation" style="color:#393A34">)</span><span class="token tag script language-javascript" style="color:#00009f"> </span><span class="token tag script language-javascript arrow operator" style="color:#393A34">=&gt;</span><span class="token tag script language-javascript" style="color:#00009f"> </span><span class="token tag script language-javascript function" style="color:#d73a49">alert</span><span class="token tag script language-javascript punctuation" style="color:#393A34">(</span><span class="token tag script language-javascript string" style="color:#e3116c">'You clicked a React-powered MDX button!'</span><span class="token tag script language-javascript punctuation" style="color:#393A34">)</span><span class="token tag script language-javascript punctuation" style="color:#393A34">}</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><span class="token plain-text"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain-text">  Click me!</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain-text"></span><span class="token tag punctuation" style="color:#393A34">&lt;/</span><span class="token tag" style="color:#00009f">button</span><span class="token tag punctuation" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>]]></content:encoded>
+            <category>Docusaurus</category>
+            <category>MDX</category>
+            <category>react</category>
+            <category>Hackathon</category>
+        </item>
+        <item>
+            <title><![CDATA[My Complete Journey Building an AI-Native Textbook]]></title>
+            <link>https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post</link>
+            <guid>https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post</guid>
+            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a detailed breakdown of my experience participating in the Panaversity Hackathon: AI-Native Textbook for Physical AI & Humanoid Robotics.]]></description>
+            <content:encoded><![CDATA[<p>This is a detailed breakdown of my experience participating in the <strong>Panaversity Hackathon: AI-Native Textbook for Physical AI &amp; Humanoid Robotics</strong>.<br>
+<!-- -->In this long-form blog, I’ll walk through my workflow, tools, challenges, and the major breakthroughs I encountered while building a fully automated AI-powered learning system.</p>
+<p>Use a <code>&lt;!-- truncate --&gt;</code> comment to limit how much appears in the blog list.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-getting-started--understanding-the-vision">🚀 Getting Started — Understanding the Vision<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post#-getting-started--understanding-the-vision" class="hash-link" aria-label="Direct link to 🚀 Getting Started — Understanding the Vision" title="Direct link to 🚀 Getting Started — Understanding the Vision" translate="no">​</a></h2>
+<p>The hackathon is not just a coding challenge — it's a blueprint for how future technical content will be created: AI-generated, agent-enhanced, personalized, and interactive.<br>
+<!-- -->My objective was clear:</p>
+<ul>
+<li class="">Build a polished Docusaurus textbook</li>
+<li class="">Use Spec-Kit Plus &amp; Claude Code to auto-generate content</li>
+<li class="">Integrate a RAG chatbot powered by OpenAI Agents</li>
+<li class="">Add database + vector search via NeonDB &amp; Qdrant</li>
+<li class="">Introduce chapter personalization &amp; Urdu translation</li>
+<li class="">Explore reusable intelligence through subagents and agent skills</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-phase-1--setting-up-the-project-scaffold">🧩 Phase 1 — Setting Up the Project Scaffold<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post#-phase-1--setting-up-the-project-scaffold" class="hash-link" aria-label="Direct link to 🧩 Phase 1 — Setting Up the Project Scaffold" title="Direct link to 🧩 Phase 1 — Setting Up the Project Scaffold" translate="no">​</a></h2>
+<p>I began by initializing a fresh <strong>Docusaurus</strong> project.<br>
+<!-- -->From file structure to plugin setup, everything needed to be optimized so that the book could grow automatically using Spec-Kit Plus.</p>
+<p>Key steps included:</p>
+<ul>
+<li class="">Installing dependencies</li>
+<li class="">Creating initial docs/pages/folders</li>
+<li class="">Connecting GitHub Pages deployment</li>
+<li class="">Ensuring the blog and docs systems were clean and organized</li>
+</ul>
+<p>Once this was done, I connected Claude Code to the repo.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-phase-2--ai-driven-book-creation-spec-kit--claude-code">🤖 Phase 2 — AI-Driven Book Creation (Spec-Kit + Claude Code)<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post#-phase-2--ai-driven-book-creation-spec-kit--claude-code" class="hash-link" aria-label="Direct link to 🤖 Phase 2 — AI-Driven Book Creation (Spec-Kit + Claude Code)" title="Direct link to 🤖 Phase 2 — AI-Driven Book Creation (Spec-Kit + Claude Code)" translate="no">​</a></h2>
+<p>This was the real game-changer.<br>
+<!-- -->Using the Spec-Kit Plus architecture, I generated:</p>
+<ul>
+<li class="">Course outlines</li>
+<li class="">Progressive chapters</li>
+<li class="">Code examples</li>
+<li class="">Diagrams</li>
+<li class="">Glossaries</li>
+<li class="">Index files</li>
+</ul>
+<p>Claude Code helped automate formatting, summaries, cleanup, and content alignment.</p>
+<p>The result:<br>
+<!-- -->A fully structured AI-generated textbook evolving in real time.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-phase-3--building-the-rag-chatbot">🔍 Phase 3 — Building the RAG Chatbot<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post#-phase-3--building-the-rag-chatbot" class="hash-link" aria-label="Direct link to 🔍 Phase 3 — Building the RAG Chatbot" title="Direct link to 🔍 Phase 3 — Building the RAG Chatbot" translate="no">​</a></h2>
+<p>To power question-answering inside the book, I set up:</p>
+<ul>
+<li class=""><strong>FastAPI backend</strong></li>
+<li class=""><strong>Neon Serverless Postgres</strong> for metadata</li>
+<li class=""><strong>Qdrant Cloud</strong> for vector embeddings</li>
+<li class=""><strong>OpenAI Agents / ChatKit SDK</strong> for intelligent reasoning</li>
+</ul>
+<p>The chatbot can:</p>
+<ul>
+<li class="">Answer queries based on full textbook content</li>
+<li class="">Work with selected text snippets</li>
+<li class="">Provide contextual suggestions</li>
+<li class="">Maintain conversation memory</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-phase-4--personalization--urdu-translation">🎨 Phase 4 — Personalization &amp; Urdu Translation<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post#-phase-4--personalization--urdu-translation" class="hash-link" aria-label="Direct link to 🎨 Phase 4 — Personalization &amp; Urdu Translation" title="Direct link to 🎨 Phase 4 — Personalization &amp; Urdu Translation" translate="no">​</a></h2>
+<p>I implemented two buttons at the top of every chapter:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-personalize-content">✔️ <strong>Personalize Content</strong><a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post#%EF%B8%8F-personalize-content" class="hash-link" aria-label="Direct link to ️-personalize-content" title="Direct link to ️-personalize-content" translate="no">​</a></h3>
+<p>Adjusts complexity, examples, tone, and learning depth based on user background.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-translate-to-urdu">✔️ <strong>Translate to Urdu</strong><a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post#%EF%B8%8F-translate-to-urdu" class="hash-link" aria-label="Direct link to ️-translate-to-urdu" title="Direct link to ️-translate-to-urdu" translate="no">​</a></h3>
+<p>Instantly converts the entire chapter into fluent, academic-level Urdu.</p>
+<p>Both features required front-end customization + agent logic.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-phase-5--reusable-intelligence-with-subagents">🧠 Phase 5 — Reusable Intelligence with Subagents<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post#-phase-5--reusable-intelligence-with-subagents" class="hash-link" aria-label="Direct link to 🧠 Phase 5 — Reusable Intelligence with Subagents" title="Direct link to 🧠 Phase 5 — Reusable Intelligence with Subagents" translate="no">​</a></h2>
+<p>Using Claude Code, I experimented with:</p>
+<ul>
+<li class="">Subagents for code generation</li>
+<li class="">Subagents for translation</li>
+<li class="">Subagents for summarization</li>
+<li class="">Skills that could be reused across chapters</li>
+</ul>
+<p>This made content creation <strong>faster, smarter, and modular</strong>.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-final-thoughts--what-i-learned">📈 Final Thoughts — What I Learned<a href="https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/long-blog-post#-final-thoughts--what-i-learned" class="hash-link" aria-label="Direct link to 📈 Final Thoughts — What I Learned" title="Direct link to 📈 Final Thoughts — What I Learned" translate="no">​</a></h2>
+<p>This hackathon challenged me to think beyond traditional coding.<br>
+<!-- -->I learned to:</p>
+<ul>
+<li class="">Combine multiple AI tools</li>
+<li class="">Automate textbook creation</li>
+<li class="">Build RAG-based intelligent systems</li>
+<li class="">Personalize learning experiences</li>
+<li class="">Deploy modern AI-powered platforms</li>
+</ul>
+<p>This project is just the beginning — the future of education is AI-native.</p>
+<p>Stay tuned — many upgrades coming soon! 🚀</p>]]></content:encoded>
+            <category>AI Native</category>
+            <category>Hackathon</category>
+            <category>Docusaurus</category>
+            <category>panaversity</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome to My AI-Native Hackathon Journey]]></title>
+            <link>https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/first-blog-post</link>
+            <guid>https://syedjalees.github.io/Physical-AI-Humanoid-Robotics-book/blog/first-blog-post</guid>
+            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[The future of learning is shifting toward AI-native education, where textbooks, courses, and platforms are powered by intelligent agents. This blog marks the beginning of my journey in the Panaversity Physical AI & Humanoid Robotics Hackathon — a challenge designed to push the boundaries of how we create, publish, and interact with technical knowledge.]]></description>
+            <content:encoded><![CDATA[<p>The future of learning is shifting toward <strong>AI-native education</strong>, where textbooks, courses, and platforms are powered by intelligent agents. This blog marks the beginning of my journey in the <strong>Panaversity Physical AI &amp; Humanoid Robotics Hackathon</strong> — a challenge designed to push the boundaries of how we create, publish, and interact with technical knowledge.</p>
+<p>Over the next few days, I’ll be building a complete <strong>AI-generated textbook</strong> using Spec-Kit Plus and Claude Code, deploying it with <strong>Docusaurus</strong>, and integrating a fully functional <strong>RAG-powered chatbot</strong> that can answer questions from the book in real time.</p>
+<p>Some major goals of this project include:</p>
+<ul>
+<li class="">Building a polished AI-native textbook</li>
+<li class="">Deploying it to GitHub Pages</li>
+<li class="">Adding a RAG chatbot using OpenAI Agents, FastAPI, Qdrant, and NeonDB</li>
+<li class="">Enabling personalized and Urdu-translated chapters</li>
+<li class="">Exploring multi-agent workflows and reusable intelligence</li>
+</ul>
+<p>This blog will document my progress, challenges, learnings, and the evolution of the project as I move forward.<br>
+<strong>Stay tuned — big things are coming! 🚀</strong></p>]]></content:encoded>
+            <category>Hackathon</category>
+            <category>Docusaurus</category>
+            <category>AI Native</category>
+            <category>panaversity</category>
+        </item>
+    </channel>
+</rss>
