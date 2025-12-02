@@ -1,13 +1,17 @@
+import React, { ReactNode } from 'react';
+import ChatBot from '../components/ChatBot';
+import { JSX } from 'react/jsx-runtime';
 
-// my-book/src/theme/Root.tsx
-import React from 'react';
-import { AuthProvider } from '../../context/AuthContext'; // Adjust path
-
-// Default implementation, that you can customize
-// See https://docusaurus.io/docs/api/theme/root
-
-function Root({ children }) {
-  return <AuthProvider>{children}</AuthProvider>;
+// Props Interface
+interface RootProps {
+  children: ReactNode;
 }
 
-export default Root;
+export default function Root({ children }: RootProps): JSX.Element {
+  return (
+    <>
+      {children}
+      <ChatBot />
+    </>
+  );
+}

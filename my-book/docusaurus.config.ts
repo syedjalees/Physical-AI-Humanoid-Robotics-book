@@ -63,7 +63,7 @@ const config: Config = {
 
     // ⭐⭐⭐ FIXED NAVBAR ⭐⭐⭐
     navbar: {
-      title: 'My Site',
+      title: 'AI-Native Textbook',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
